@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "pcap-analyzer"
+version = "3.0.0"
+description = "PCAP ANALYZER — Network Intelligence & Security Analysis Platform"
+authors = [
+    {name = "VCAS.PRIVATE"},
+    {name = "QNTSOFTWARE"},
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["pcap", "network", "security", "ctf", "wireshark", "ai", "gemini", "forensics", "binary"]
+
+dependencies = [
+    "google-generativeai>=0.8.0",
+    "scapy>=2.5.0",
+    "reportlab>=4.2.0",
+    "requests>=2.31.0",
+]
+
+[project.scripts]
+pcapanalyzer = "core.cli:pcapanalyzer_main"
+pcapmg       = "core.cli:pcapmg_main"
+pcapbib      = "core.bib:pcapbib_main"
+
+[tool.setuptools.packages.find]
+where   = ["."]
+include = ["core*"]
