@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛰️ PCAP ANALYZER
+# PCAP ANALYZER
 
 ### AI-Powered Network Intelligence & Security Analysis Platform
 
@@ -21,7 +21,7 @@
 
 [![PCAP ANALYZER Demo](https://img.youtube.com/vi/hMsXwUo6DLg/hqdefault.jpg)](https://www.youtube.com/watch?v=hMsXwUo6DLg)
 
-## 💡 Overview
+##  Overview
 
 **PCAP ANALYZER** is a command-line network forensics platform for Kali Linux (and WSL) that combines `tshark`/`scapy`-based deep packet inspection with LLM reasoning. It ships as **three tools**:
 
@@ -35,16 +35,16 @@ Every AI-backed analysis is guided by **CIPHER**, a WCNA/GNFA-level analyst pers
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔍 **Dual-engine packet parsing** — `tshark` primary, `scapy` fallback, full `frame.protocols` chain resolution
-- 🧠 **Three AI backends** — Google Gemini API, local Ollama models, or a 100%-deterministic No-AI heuristic engine
-- 🧩 **CTF-tuned prompt engine** — auto-detects the relevant protocol from your task description and pre-filters accordingly
-- 🗂️ **`pcapbib`** — 20 standalone engines for hex dumps, Cisco configs, SIP logs, file carving, and steganography checks
-- 📡 **Complete port intelligence** — a 0–65,535 port database tagged `STANDARD / SECURE / RISKY / MALWARE / ADMIN / VOIP / GAME / DATABASE / INDUSTRIAL`
-- 📄 **Professional PDF & JSON reports** — threat level, key packets, IOCs, credentials, recommendations
-- 🌍 **15 output languages** — `eng tr de ru fr es ar zh ja it pt ko nl pl sv`
-- 🎨 **Color-coded terminal output** — key packets in red, sensitive values in yellow, protocols in cyan
+-  **Dual-engine packet parsing** — `tshark` primary, `scapy` fallback, full `frame.protocols` chain resolution
+- **Three AI backends** — Google Gemini API, local Ollama models, or a 100%-deterministic No-AI heuristic engine
+-  **CTF-tuned prompt engine** — auto-detects the relevant protocol from your task description and pre-filters accordingly
+-  **`pcapbib`** — 20 standalone engines for hex dumps, Cisco configs, SIP logs, file carving, and steganography checks
+-  **Complete port intelligence** — a 0–65,535 port database tagged `STANDARD / SECURE / RISKY / MALWARE / ADMIN / VOIP / GAME / DATABASE / INDUSTRIAL`
+-  **Professional PDF & JSON reports** — threat level, key packets, IOCs, credentials, recommendations
+-  **15 output languages** — `eng tr de ru fr es ar zh ja it pt ko nl pl sv`
+-  **Color-coded terminal output** — key packets in red, sensitive values in yellow, protocols in cyan
 
 ---
 
