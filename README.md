@@ -11,7 +11,7 @@
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python&logoColor=white)](#dependencies)
 [![Stars](https://img.shields.io/github/stars/qntsoftware/Pcap-Analyzer?style=social)](https://github.com/qntsoftware/Pcap-Analyzer/stargazers)
 
-**Developed by [VCAS.PRIVATE](https://github.com/qntsoftware) × [QNTSOFTWARE](https://github.com/qntsoftware)**
+**Developed by [VCAS.PRIVATE](https://www.youtube.com/@vcas.private) × [QNTSOFTWARE](https://github.com/qntsoftware)**
 
 [Installation](#-installation) • [Commands](#-three-tools-one-platform) • [No-AI Engine](#-no-ai-deep-heuristic-engine) • [pcapbib](#-pcapbib--binary--file-intelligence) • [Architecture](#-architecture)
 
